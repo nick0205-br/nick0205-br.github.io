@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+body{
+    background-color: #E5E5E5;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(../images/slide.png);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    width: 90px;
+    height: auto;
+    margin:5px;
+    margin-left: 30px;
+    align-items: center;
+}
+.barra-superior{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    background-color:#00000080;
+}
+.menu-a{
+    margin:5px;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.text-head{
+    color: #ffffff;
+    margin-left: 4em;
+}
+
+.h1-head{
+    font-family: 'roboto';
+}
+
+.h6-head{
+    font-family: 'roboto';
+}
+
+.a-head{
+    font-family: 'roboto';
+    border: 0.5px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px
+}
+
+.episodio{
+    display: flex;
+    flex-direction: row;
+}

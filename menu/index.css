@@ -12,7 +12,7 @@ body {
   }
   
   .background-one {
-    background-color: #151515;
+    background-color: #000000;
   }
   
   .background-two {
@@ -39,7 +39,7 @@ body {
   }
   
   .link-one {
-    color: #53d9d1;
+    color: #fffb00;
     transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
     line-height: 1em;
   }
@@ -47,8 +47,6 @@ body {
   .link-one:hover {
     color: #111;
     transition: color 1s cubic-bezier(0.33, 1, 0.68, 1);
-  
-    /* Thanks Chris Coyier, you got my back always. https://css-tricks.com/different-transitions-for-hover-on-hover-off/ */
   }
   
   .link-one::before {
@@ -59,7 +57,7 @@ body {
     height: 100%;
     top: 0;
     right: 0;
-    background-color: #53d9d1;
+    background-color: #fffb00;
   
     clip-path: circle(0% at 50% calc(50%));
     transition: clip-path 1s cubic-bezier(0.65, 0, 0.35, 1);
@@ -77,7 +75,7 @@ body {
     height: 100%;
     top: 0;
     right: 0;
-    background-color: #151515;
+    background-color: #000000;
   
     clip-path: polygon(
       40% 0%,
@@ -161,7 +159,7 @@ body {
   }
   
   .link-two {
-    color: #f27b9b;
+    color: #fffb00;
     transition: color 1s cubic-bezier(0.40, 0, 0.70, 0);
   }
   
@@ -188,7 +186,7 @@ body {
       100% 100%,
       0% 110%
     );
-    background-color: #f27b9b;
+    background-color: #fffb00;
   
     transition: clip-path 1s cubic-bezier(0.25, 1, 0.5, 1);
   }
@@ -217,7 +215,7 @@ body {
     transform: translate(50%, -50%) rotate(0deg) scale(0);
     transition: transform 1s ease;
   
-    background-color: #f27b9b;
+    background-color: #fffb00;
   }
   
   .link-two:hover::after {
@@ -225,7 +223,7 @@ body {
   }
   
   .link-three {
-    color: #eb7132;
+    color: #fffb00;
   }
   
   .link-three::after {
@@ -251,7 +249,7 @@ body {
       20% 20%
     );
   
-    background-color: #eb7132;
+    background-color: #fffb00;
   }
   
   .link-three:hover::after {
@@ -281,7 +279,7 @@ body {
       80% 80%
     );
   
-    background-color: #eb7132;
+    background-color: #fffb00;
   }
   
   .link-three:hover::before {
