@@ -232,7 +232,92 @@ footer{
 }
 
 .back-f{
-    background-image: url(../images/slide.png);
+    background-image: url(../images/slide480.png);
     background-size: cover;
     background-position: top;
+}
+
+@media only screen and (max-width: 480px){ 
+    .new-p{
+        font-family: 'roboto-l';
+        font-size: 30px;
+    }
+    footer{
+        height: 20rem;
+    }
+    
+    .back-footer{
+        background-color: #000000a2;
+    }
+    
+    .back-foot{
+        background-color: #222222;
+        height: 223px;
+    }
+    
+    .contato-h{
+        color: #ffffff;
+        font-family: 'roboto';
+        font-size: 48px;
+        margin-left: 70px;
+    }
+    
+    .ender{
+        color: #ffffff;
+        font-family: 'roboto';
+        font-size: 14px;
+    }
+    
+    .copy{
+        color: #ffffff;
+        font-family: 'roboto';
+        font-size: 14px;
+        text-align: center;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+    }
+    
+    .copyr{
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .insta{
+        height: 100px;
+        width: auto;
+    }
+    
+    .endereco{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .instag{
+        color: #ffffff;
+        font-family: 'roboto';
+        font-size: 16px;
+        margin-top: 45px;
+        text-decoration: underline;
+    }
+    
+    .instagram{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin-top: 7%;
+    }
+    
+    .back-f{
+        background-image: url(../images/slide480.png);
+        background-size: cover;
+        background-position: top;
+    }
 }
