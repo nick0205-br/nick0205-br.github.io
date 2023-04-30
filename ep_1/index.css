@@ -328,11 +328,3 @@ footer{
         background-position: top;
     }
 }
-
-@media only screen and (max-width: 800px) {
-    header{
-        background-image: url(../images/slide480.png);
-        background-size: cover;
-        height: 28rem;
-    }
-}
