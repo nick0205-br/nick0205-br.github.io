@@ -203,6 +203,7 @@ footer{
 .endereco{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .row{

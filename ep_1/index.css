@@ -144,6 +144,11 @@ header{
     width: auto;
     margin-left: 60px;
     margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.player{
+    margin: 20px;
 }
 
 .title{
@@ -208,6 +213,7 @@ footer{
 .endereco{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .row{
